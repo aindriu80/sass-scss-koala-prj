@@ -1,3 +1,32 @@
-body{
-    border: 1px solid black;
+p{
+  color: blue;
+}
+
+p ul{
+  list-style-type: square;
+  text-decoration: underline;
+  li{
+    float: left;
+    padding:{
+        left: 5px;
+        right: 50px;
+        bottom: 17px;
+    }  
+  }
+}
+a{
+    color: green;
+    &:hover{
+      color: purple;
+      font-weight: bold;
+    }
+    &::visited{
+      color: white;
+    } 
+ 
+}
+  
+.main{
+    .closed{color: black;}
+    #id{text-decoration: underline}
 }
