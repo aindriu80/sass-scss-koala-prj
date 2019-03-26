@@ -1,47 +1,7 @@
-body {
-  background-color: #001400;
-  font:{
-    family: Verdana, Arial, Helvetica, sans-serif;
-    size: 12px;
-  }
-  line-height: 20px;
-  color: #aaa;
-}
-
-a {
-  text-decoration: none;
-  color: #008000;
-  &:hover {
-    text-decoration: underline;
-    color: #004E00;
-  }
-}
-
-#wrap {
-  margin: 0 auto;
-  width: 800px;
-}
+@import "styleFiles/body.scss";
 
 @import "styleFiles/header.scss","styleFiles/leftandright.scss";
 
-.articles {
-  padding: 10px;
-}
+@import "styleFiles/articles.scss";
 
-#footer {
-  text-align: center;
-  font-size: 11px;
-  color: #aaa;
-  margin-top: 40px;
-  border-top: 1px dotted #aaa;
-  padding:{
-    top: 10px;
-    bottom: 200px;
-  }
-  a {
-      color: #aaa;
-      &:hover {
-          color: #eee;
-      }
-  }
-}
+@import "styleFiles/footer.scss";

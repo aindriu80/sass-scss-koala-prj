@@ -1,0 +1,19 @@
+
+#footer {
+    text-align: center;
+    font-size: 11px;
+    color: #aaa;
+    margin-top: 40px;
+    border-top: 1px dotted #aaa;
+    padding:{
+      top: 10px;
+      bottom: 200px;
+    }
+    a {
+        color: #aaa;
+        &:hover {
+            color: #eee;
+        }
+    }
+  }
+  

@@ -1,0 +1,38 @@
+$standardWidth: 800px;
+$primaryColor: #ffffff;
+
+body {
+    background-color: $primaryColor;
+    font:{
+      family: Verdana, Arial, Helvetica, sans-serif;
+      size: 12px;
+    }
+    line-height: 20px;
+    $secondaryColor: #000000 !global;
+    color: $secondaryColor;
+  }
+  
+  .main{
+      background-color: $primaryColor;
+  }
+  
+  a {
+    text-decoration: none;
+    color: $secondaryColor;
+    &:hover {
+      text-decoration: underline;
+      color: #004E00;
+    }
+  }
+  
+  #wrap {
+    margin: 0 auto;
+    width: $standardWidth;
+  }
+
+  #header{
+    h1{
+        font-size: 28px;
+        width: $standardWidth;
+    }
+  }
