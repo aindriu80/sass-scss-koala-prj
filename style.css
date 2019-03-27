@@ -50,17 +50,17 @@ a {
   width: 570px;
   text-align: justify;
   padding-top: 20px; }
-  .left h2 {
+  .left h2 h3 {
     font-size: 18px;
     font-weight: 100;
     padding-left: 10px;
     height: 30px;
     line-height: 30px;
     background: #008000; }
-    .left h2 a {
+    .left h2 h3 a {
       text-decoration: none;
       color: #fff; }
-      .left h2 a:hover {
+      .left h2 h3 a:hover {
         color: #111; }
 
 .right {
@@ -74,11 +74,12 @@ a {
     line-height: 30px;
     background: #008000;
     color: #fff;
-    font-size: 13px; }
-  .right ul {
+    font-size: 13px;
+    content: "Demo: Hello World!"; }
+  .right ul h3 {
     padding: 10px 0 15px 20px;
     color: #008000; }
-    .right ul li a {
+    .right ul h3 li a {
       text-decoration: none;
       font-weight: 600; }
 

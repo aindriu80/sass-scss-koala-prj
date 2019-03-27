@@ -1,10 +1,12 @@
+$tag: h3;
+$demoText: "Hello World!";
 
 .left {
     float: left;
     width: 570px;
     text-align: justify;
     padding-top: 20px;
-    h2 {
+    h2 #{$tag}{
         font:{
           size: 18px;
           weight: 100;
@@ -35,8 +37,9 @@
         background: #008000;
         color: #fff;
         font-size: 13px;
+        content: "Demo: #{$demoText}";
     }
-    ul {
+    ul #{$tag}{
         padding: 10px 0 15px 20px;
         color: #008000;
         li a {
