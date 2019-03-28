@@ -23,6 +23,26 @@ a {
   font-size: 28px;
   width: 800px; }
 
+.success-btn, .failed-btn, .large-failed-btn, .small-failed-btn {
+  padding: 15px;
+  margin: 2px;
+  color: white;
+  background-color: green;
+  border-radius: 6px;
+  border: 1px solid #9f9; }
+
+.failed-btn, .large-failed-btn, .small-failed-btn {
+  background-color: red;
+  border: 1px solid pink; }
+
+.large-failed-btn {
+  font-size: 36px; }
+
+.small, .small-failed-btn {
+  font-size: 8px;
+  padding: 0;
+  margin: 0; }
+
 #header h1 {
   font-size: 28px;
   letter-spacing: -1px;
