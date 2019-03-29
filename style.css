@@ -82,6 +82,16 @@ a {
       color: #fff; }
       .left h2 h3 a:hover {
         color: #111; }
+      @media screen and (max-width: 768px) {
+        .left h2 h3 a {
+          text-decoration: underline; } }
+  @media screen and (max-width: 768px) and (orientation: portrait) {
+    .left h2 h3 a {
+      color: blue; } }
+
+    @media screen and (max-width: 768px) {
+      .left h2 h3 {
+        font-size: 12px; } }
 
 .right {
   float: right;

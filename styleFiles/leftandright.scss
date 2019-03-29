@@ -1,5 +1,6 @@
 $tag: h3;
 $demoText: "Hello World!";
+$standardTablet:  "screen and (max-width: 768px)";
 
 .left {
     float: left;
@@ -21,7 +22,17 @@ $demoText: "Hello World!";
             &:hover {
                 color: #111;
             }
+            @media #{$standardTablet}{  
+                text-decoration: underline;
+                @media (orientation: portrait){
+                    color: blue;
+                }
+            }
         }
+        @media #{$standardTablet}{        
+            font-size: 12px;   
+    }
+    
     }
   }
   

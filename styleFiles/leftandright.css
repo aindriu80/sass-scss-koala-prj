@@ -1,0 +1,42 @@
+.left {
+  float: left;
+  width: 570px;
+  text-align: justify;
+  padding-top: 20px; }
+  .left h2 h3 {
+    font-size: 18px;
+    font-weight: 100;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    background: #008000; }
+    .left h2 h3 a {
+      text-decoration: none;
+      color: #fff; }
+      .left h2 h3 a:hover {
+        color: #111; }
+  @media screen and (max-width: 768px) {
+    .left {
+      font-size: 12px; } }
+
+.right {
+  float: right;
+  width: 180px;
+  padding-top: 10px; }
+  .right h2 {
+    margin: 10px 0 0 0;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    background: #008000;
+    color: #fff;
+    font-size: 13px;
+    content: "Demo: Hello World!"; }
+  .right ul h3 {
+    padding: 10px 0 15px 20px;
+    color: #008000; }
+    .right ul h3 li a {
+      text-decoration: none;
+      font-weight: 600; }
+
+/*# sourceMappingURL=leftandright.css.map */
