@@ -1,0 +1,20 @@
+$standardWidth: 10px;
+$text: "My name is John";
+p{
+    font-size:10px+10px;
+    margin: $standardWidth;
+    marginExample: 30px - 25px;
+    padding: $standardWidth * 2;
+    border-radius: (10px/2);
+    content: 10px < 20px;
+}
+
+.test{
+    background-color: aqua;
+    font-size:10px+10px;
+    margin: 30px - 30px;
+
+    content: "Hello " + "world, #{$text},  #{25 * 9}", #{$standardWidth};
+
+}
+

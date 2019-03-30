@@ -129,4 +129,18 @@ a {
     #footer a:hover {
       color: #eee; }
 
+p {
+  font-size: 20px;
+  margin: 10px;
+  marginExample: 5px;
+  padding: 20px;
+  border-radius: 5px;
+  content: true; }
+
+.test {
+  background-color: aqua;
+  font-size: 20px;
+  margin: 0px;
+  content: "Hello world, My name is John,  225", 10px; }
+
 /*# sourceMappingURL=style.css.map */
