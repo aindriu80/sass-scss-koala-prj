@@ -135,12 +135,16 @@ p {
   marginExample: 5px;
   padding: 20px;
   border-radius: 5px;
-  content: true; }
+  content: true;
+  width: 12px/3; }
 
 .test {
   background-color: aqua;
   font-size: 20px;
   margin: 0px;
   content: "Hello world, My name is John,  225", 10px; }
+
+body {
+  font-size: 32px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,12 @@
+// small or big
+$size: "big";
+
+body{
+    @if $size == "small"{
+        font-size: 8px;
+    } @else if $size == "big"{
+        font-size: 32px;
+    } @else {
+        font-size: 12px;
+    }
+}
