@@ -147,4 +147,64 @@ p {
 body {
   font-size: 32px; }
 
+#itemNoOne1 {
+  font-size: 1; }
+
+#itemNoOne2 {
+  font-size: 2; }
+
+#itemNoOne3 {
+  font-size: 3; }
+
+#itemNoOne4 {
+  font-size: 4; }
+
+#itemNoOne5 {
+  font-size: 5; }
+
+#itemNoOne6 {
+  font-size: 6; }
+
+#itemNoOne7 {
+  font-size: 7; }
+
+#itemNoOne8 {
+  font-size: 8; }
+
+#itemNoOne9 {
+  font-size: 9; }
+
+#itemNoOne10 {
+  font-size: 10; }
+
+#about {
+  content: "This page is about me."; }
+
+#contact {
+  content: "Use this page to contact me."; }
+
+#home {
+  content: "This is the home page."; }
+
+#itemNoTwo1 {
+  font-size: 1px; }
+
+#itemNoTwo2 {
+  font-size: 2px; }
+
+#itemNoTwo4 {
+  font-size: 4px; }
+
+#itemNoTwo8 {
+  font-size: 8px; }
+
+#itemNoTwo16 {
+  font-size: 16px; }
+
+#itemNoTwo32 {
+  font-size: 32px; }
+
+#itemNoTwo64 {
+  font-size: 64px; }
+
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,32 @@
+// for loop
+
+@for $i from 1 through 10{
+    #itemNoOne#{$i}{
+        font-size: #{$i};
+    }
+}
+
+// each loop
+
+$map: (
+    about: "This page is about me.",
+    contact: "Use this page to contact me.",
+    home: "This is the home page."
+);
+
+@each $key, $value in $map{
+    ##{$key}{
+        content: $value;
+    }
+}
+
+// while loop
+
+$i: 1;
+
+@while $i <= 100 {
+    #itemNoTwo#{$i}{    
+        font-size: #{$i}px;
+        $i: $i * 2;
+    }
+}
