@@ -1,0 +1,18 @@
+@mixin bigCharacters($args...) {
+    font-size: $size;
+    font-weight: bold;
+    padding: $args;
+    border: 3px solid black;
+}
+
+.main{
+    @include bigCharacters(7px 8px 9px);
+}
+
+@function divideByFour($number){
+    @return ($number /4);
+}
+
+div{
+    font-size: divideByFour(16px);
+}
